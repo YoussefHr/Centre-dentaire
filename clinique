@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>La clinique</title>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400"|Vollkorn:400,900" rel="stylesheet">  
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<!-- begin header -->
+		<header>
+			<div class="container">
+			<div class="logo"></div>
+			<div class="entete">
+			<h1>Centre dentaire Linda Leclair</h1>
+			<ul>
+				<li><a href="#">La clinique</a></li>
+				<li><a href="#">Soins dentaires</a></li>
+				<li><a href="#">Foire aux questions</a></li>
+				<li><a href="#">L'équipe</a></li>
+				<li><a href="#">Nous joindre</a></li>
+				
+			</ul>	
+			</div>
+			
+			
+		</header>
+		<!-- begin slider -->
+		
+		<footer>
+			
+		</footer>
+
+
+</body>
+</html>

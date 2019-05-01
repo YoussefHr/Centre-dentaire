@@ -1,0 +1,60 @@
+.slider{
+	background:  linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)),url("../img/entete-clinique.jpg");
+	width: 100%;
+	background-size: cover;
+	height: 80vh;
+}
+.slider{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.slider h2{
+	color:#f0c023;
+	font-size: 4em;
+	text-shadow: 1px 1px 5px black;
+}
+.content{
+	 padding:80px 30px;
+	 
+}
+.content .container{
+	display: flex;
+	
+	
+	
+
+}
+.gauche{
+	color: #666;
+	width: 50%;
+	font-weight: 400;
+	font-size: 22px;
+line-height: 1.4em;
+	
+}
+.droite{
+	
+	
+	width: 60%;
+	position: relative;
+	
+	display: flex;
+	justify-content: center;
+	
+
+}
+.droite img{
+	width: 70%;
+	height: 70%;
+	border-radius: 50%;
+	max-width: 450px;
+	
+
+}
+.gauche a{
+	color: #f0c023;
+		font-size: 22px;
+line-height: 1.4em;
+
+}

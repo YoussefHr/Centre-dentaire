@@ -1,0 +1,367 @@
+body{
+	font-family: 'Fira Sans', sans-serif;
+	color: #555;
+	
+
+}
+.container{
+	margin: 0 auto;
+	max-width: 1400px;
+}
+a{
+	text-decoration: none;
+	color:#f0c023;
+}
+ul{
+	list-style: none;
+}
+
+/*header*/
+header .container{
+	display: flex;
+	justify-content: space-between;
+
+}
+.logo{
+width: 175px;
+height: 120px;
+background: url('../img/image.png') no-repeat scroll 0px 0px;
+margin: 30px 15px;
+
+}
+.entete{
+	margin-top: 30px;
+}
+.entete h1{
+	text-align: right;
+}
+.entete ul{
+	display: flex;
+}
+.entete ul li{
+	border-right: 1px solid #f0c023;
+	padding: 10px;
+
+}
+.entete ul li:last-child{
+	border: none;
+}
+.entete ul li a{
+	position: relative;
+	color: #333;
+	font-size: 1.2em;
+	display: block;
+	transition: .5s;
+
+
+}
+/*slider*/
+.slider{
+	background: url('../img/entete.jpg');
+	min-height: 520px;
+	background-size: cover;
+}
+.fleche{
+	display: block;
+	position: relative;
+	width: 70px;
+height: 70px;
+background:transparent url('../img/image.png') no-repeat scroll -190px -17px;
+margin: -30px auto -40px; 
+text-indent: 1000px;
+z-index: 5;
+}
+/* start content*/
+content{
+	display: block;
+	text-align: center;
+	background: #EFBF23 url('../img/fond-j.png') repeat scroll center top;
+	padding: 100px 0;
+	position: relative;
+	z-index: 1;
+
+}
+content h2{
+	color: white;
+	font-family: 'Vollkorn', serif;
+	font-size: 2em;
+	font-weight: normal;
+	line-height: 1.5em;
+	text-shadow: 0 -5px 5px #cca010;
+}
+content .spanh2{
+	font-size: 72px;
+	font-weight: bold;
+}
+content p{
+	font-weight: 300;
+	font-size: 24px;
+	font-family: 'Fira Sans Light', sans-serif;
+}
+content .spanp{
+	font-size: 30px;
+}
+.tel{
+	color: #fff;
+	font-size: 4em;
+	text-shadow: 0px -5px 5px #cca010;
+	margin: 0;
+}
+/*equipe*/
+.equipe{
+	display: flex;
+	justify-content: space-around;
+	margin: 50px auto;
+
+}
+.membre{
+	width:30.33%;
+    
+	margin-left: 1%;
+	text-align: center;
+}
+.img-membre{
+
+}
+.img-membre img{
+	width: 80%;
+	max-width: 280px;
+	height: auto;
+	border-radius: 50%;
+
+}
+.membre h2{
+	font-weight : 400;
+	font-size: 30px;
+line-height: 1em;
+
+}
+.membre p{
+	font-size: 16px;
+	font-weight: 300;
+	
+}
+/*footer*/
+footer{
+	background: #EFBF23 url('../img/fond-gris.png') repeat scroll center top;
+	padding: 50px 0;
+}
+footer .container{
+	display: flex;
+	justify-content: space-between;
+
+}
+footer .menu{
+	border-right: 1px solid #555;
+	
+	flex: 1;
+}
+footer .menu li{
+	margin-bottom: 5px;
+}
+footer .menu a{
+	color: #fff;
+	font-weight: 300;
+	font-size: 11px;
+	text-transform: uppercase;
+}
+footer .menu a:hover{
+	color:#f0c023;
+}
+footer .contact{
+flex: 1;
+padding-left: 25px;
+border-right: 1px solid #555;
+
+}
+footer .contact h4{
+	font-weight: 300;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: white;
+	margin: 0;
+}
+
+footer h2{
+	color: white;
+	font-size: 2.5em;
+	margin: 0;
+}
+footer p{
+	color: #f0c023;
+	font-weight: 300;
+	margin-top: 6px;
+}
+footer .sponsor{
+margin-left: 25px;
+flex: 2;
+
+height: 75px;
+background: url('../img/image.png') no-repeat scroll -275px 25px;
+
+}
+footer .sponsor h3{
+	color: white;
+	margin: 0;
+	font-size: 0.85em;
+}
+
+
+
+/* effet sur le lien de navigation*/
+
+.entete a::after {
+	content: "";
+display: block;
+
+height: 8px;
+width: 100%;
+position: absolute;
+bottom: -12px;
+
+
+
+}
+.entete a:focus::after {
+	background: #E5B721 ;
+} 
+/*.entete a:focus{
+	border-bottom: 5px solid #f0c023;
+}*/
+.active::after{
+	content: "";
+display: block;
+background: #E5B721 ;
+height: 8px;
+width: 100%;
+position: absolute;
+bottom: -12px;
+}
+
+.logo a{
+	display: block;
+	text-indent: -1000px;
+	height: 100%;
+}
+
+/*page soins *****************/
+.content-soins .container{
+	display: flex;
+	justify-content: space-between;
+
+}
+.soins-gauche{
+	flex: 1;
+}
+.soins-gauche h2{
+  font-size: 20px;
+  padding-right: 20px;
+}
+.soins-gauche p{
+font-size: 16px;
+line-height: 1.3;
+}
+
+.soins-droite{
+	flex: 2;
+	padding-left: 20px;
+}
+.soins-droite ul{
+	padding: 0;
+}
+.soins-droite ul li label{
+	display: block;
+	width:90%;
+	padding: 10px 0 10px 32px;
+	border-top:1px solid #ddd;
+	color: #333;
+	font-size:21px;
+	position: relative;
+	cursor: pointer;
+}
+.soins-droite ul li label::before{
+	position: absolute;
+	content: '';
+	height: 16px;
+	background: url('../img/image.png') no-repeat scroll -303px -49px;
+	display: block;
+	width: 12px;
+	left: 11px;
+	top: 16px;
+
+}
+
+/*popup*/
+
+/*hide*/
+.noir{
+	display: none;
+	
+	transition:1.5s;
+}
+.noir{
+	z-index: 0;
+	top:0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5));
+}
+.noir .cross{
+	position: fixed;
+	top: 25px;
+	right: 209px;
+	width: 25px;
+	height: 25px;
+	z-index: 8;
+}
+
+.popup{
+	z-index: 1;
+	top:0;
+	left: 0;
+	width:80vw;
+	height: 100vh;
+	background: yellow;
+	position: fixed;
+	text-align: center; 
+	
+
+}
+.popup-haut{
+	background: #EFBF23 url('../img/fond-j.png') repeat scroll center top;
+	padding: 20px;
+}
+.popup-haut h2{
+	padding: 40px auto 20px;
+	color: white;
+	font-size: 35px;
+	font-weight: 300;
+
+}
+.popup-haut img,.popup-bas img{
+	max-width:200px;
+	height: auto;
+	border-radius: 50%;
+	border: 10px solid white; 
+}
+.popup-bas{
+	background:white;
+	padding: 20px;
+}
+.popup-bas h2{
+	font-size: 25px;
+	font-weight: 300;
+
+}
+.popup-bas img{
+	border: 10px solid gray;
+}
+ 
+/*show popup*/
+input[type="checkbox"]:checked + .noir {
+  display: block;
+ 
+  
+}
